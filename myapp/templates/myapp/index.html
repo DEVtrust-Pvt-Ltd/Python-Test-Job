@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	</head>
+	<body>
+		
+			  <div><h3 style='text-align:center; margin:20px;'> Select Dropdown </h3></div>
+			
+			  <div class="container text-center">
+				<form action="{% url 'index' %}" method="POST" >
+					{% csrf_token %}
+					
+				<div class="row">
+				  <div class="col-md-3">
+					<select class="form-select form-select-lg mb-3 " aria-label=".form-select-lg example" name="drop1" id="drop1">
+						
+						<option selected>Risk Type 1</option>
+				
+					
+                        
+					
+					
+				  </div>
+				  <div class="col-md-3">
+					<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="drop2" id="drop2">
+						
+						<option selected>Region</option>
+						
+	
+						
+						
+					  </select>
+				  </div>
+				  <div class="col-md-3">
+					<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="drop3" id="drop3">
+
+						<option selected>Legal</option>
+						
+						
+					  </select>
+				  </div>
+                  <div class="col-md-3">
+					<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="drop4" id="drop4">
+
+						<option selected>Product</option>
+						
+					  </select>
+				  </div>
+                  <div class="col-md-3">
+					<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="drop5" id="drop5">
+
+						<option selected>Subproduct</option>
+						
+					  </select>
+				  </div>
+				 
+				  <div class="col-md-3">
+					<button type="submit" class='btn btn-primary'> Execute </button>
+					
+				  </div> 
+				
+			
+				</div>	
+			  </div>
+			</form>
+	        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+			
+  </body>
+</html>  
+
+
+
+
+
+
+
+
+			
+         

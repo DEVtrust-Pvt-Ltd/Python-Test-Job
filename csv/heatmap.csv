@@ -1,0 +1,19 @@
+Risk Type 1,Region,Legal,Product,Subproduct
+Credit Risk,Aej,NIP,FX,FX Forward
+Market Risk,Japan,NEHS,Loans,Stock Lend & Borrow
+Strategic Risk,EMEA,NGFP,Rates,FX Swap
+Operational Risk,US,NSL,SPG,Multiple
+All,All,All,Lending,Margin Loans
+,,,Credit,Govies
+,,,Securitized Product,CMO
+,,,,Whole Loan TradingRMBSCLO
+,,,,Structured Lending
+,,,,Credit Correlation
+,,,,Flow Credit
+,,,,Flow Rates
+,,,,Agency Mortgages
+,,,,IPF
+,,,,Structured Rates
+,,,,Rates
+,,,,Inflation
+,,,,Credit 
